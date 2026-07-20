@@ -32,3 +32,20 @@ To safely automate tool change heights and verify secure tool engagement, the st
 * **Electric Touch Probe:** Assigned to a specific digital input pin. This is used for automatic tool height probing.
 * **Tool Presence Sensors:** Implemented inside each tool slot/pocket of the rack to detect tool insertion status, instantly halting operations if a tool fails to mount or unmount correctly.
 * **Limit Switch Configuration:** To free up and maximize the available input pins on the USB control board for the probe and tool presence sensors, all three physical axis limit switches (X, Y, and Z) have been wired in series to share a single, combined digital input pin.
+
+### 4. Materials & Bill of Materials (BOM)
+
+#### 3D Printed Parts
+* **Print Settings:** Print all provided STL files using any standard structural filament (e.g.,PLA, PETG, ABS, or ASA). 
+* **Perimeters:** A minimum of **3 wall perimeters**
+* **Infill:** A minimum of 20%
+  
+#### Hardware & Components
+To complete the assembly, you will need to source the following off-the-shelf items:
+
+1. **Linear Rods:** 5mm diameter steel rods (Available on [AliExpress](https://de.aliexpress.com/item/4001203233924.html)).
+2. **Spring Steel Springs:** 
+   * **Wire Diameter:** 0.5 mm
+   * **Outer Diameter:** 6.5 mm
+   * **Length:** 35 mm
+3. Microswitches (Type: HANDLE Available on [AliExpress](https://de.aliexpress.com/item/1005009576690625.html))
