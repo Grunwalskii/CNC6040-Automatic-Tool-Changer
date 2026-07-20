@@ -50,3 +50,4 @@ To complete the assembly, you will need to source the following off-the-shelf it
    * **Length:** 35 mm
 3. Microswitches (Type: HANDLE Available on [AliExpress](https://de.aliexpress.com/item/1005009576690625.html))
 4. M6 Screws ~25mm and Nuts
+5. Some kind of touchplate (Available on [AliExpress](https://de.aliexpress.com/item/1005008850006833.html)
