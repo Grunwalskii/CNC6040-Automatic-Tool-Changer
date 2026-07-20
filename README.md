@@ -1,3 +1,7 @@
+# CNC6040 Tool Changer
+
+![Image](https://github.com/Grunwalskii/CNC6040-Automatic-Tool-Changer/blob/main/Pictures/4.jpg)
+
 # CNC6040 Tool Changer Configuration & Setup Guide
 
 ## Software & Hardware Integration
