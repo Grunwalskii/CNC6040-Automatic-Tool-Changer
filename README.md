@@ -30,7 +30,7 @@ To replace the outdated stock Mach3 user interface with a streamlined, modern la
 To safely automate tool change heights and verify secure tool engagement, the standard CNC6040 USB interface board has been modified to accept two dedicated digital inputs:
 
 * **Electric Touch Probe:** Assigned to a specific digital input pin for automatic tool height probing. The spindle/tool must be properly grounded to the CNC chassis. The touchplate is wired directly to the signal line from the controller board, utilizing an internal or external pull-up resistor (configured as Default High) that triggers the circuit when the tool makes physical contact.
-* **Tool Presence Sensors:** Implemented inside each tool slot/pocket of the rack to detect tool insertion status, instantly halting operations if a tool fails to mount or unmount correctly.
+* **Tool Presence Sensors:** Implemented inside each tool slot/pocket of the rack using tactile microswitches wired in series to monitor tool insertion status. Because they are chained together, the signal pulls **High** if any single switch is open (indicating a missing or improperly seated tool), and drops **Low** only when all tools are securely in place, instantly halting operations if a tool fails to mount or unmount correctly.
 * **Limit Switch Configuration:** To free up and maximize the available input pins on the USB control board for the probe and tool presence sensors, all three physical axis limit switches (X, Y, and Z) have been wired in series to share a single, combined digital input pin.
 
 ### 4. Materials & Bill of Materials (BOM)
