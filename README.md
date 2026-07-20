@@ -51,16 +51,22 @@ To complete the assembly, you will need to source the following off-the-shelf it
 3. Microswitches (Type: HANDLE Available on [AliExpress](https://de.aliexpress.com/item/1005009576690625.html))
 4. M6 Screws ~25mm and Nuts
 5. Some kind of touchplate (Available on [AliExpress](https://de.aliexpress.com/item/1005008850006833.html)
+   
+---
 
+## Support
+
+If you enjoy this project and want to support its development, you can buy me a coffee:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W1L623I6WG)
 
 ---
 
 ## ⚠️ Disclaimer & Danger Warning
 
-> ### 🛑 DANGER: RISK OF MACHINE CRASH & HARDWARE DAMAGE
-> **Misconfigured tool height sensors, incorrect G-code, or improper macro settings will cause a severe machine crash.** 
->
-> Before allowing the spindle to automatically drive a tool down into the touchplate or tool setter, you **must** manually test the circuit logic.
+### 🛑 DANGER: RISK OF MACHINE CRASH & HARDWARE DAMAGE
+**Misconfigured tool height sensors, incorrect G-code, or improper macro settings will cause a severe machine crash.** 
+Before allowing the spindle to automatically drive a tool down into the touchplate or tool setter, you **must** manually test the circuit logic.
 
 ### Disclaimer
 This documentation and the provided configurations are shared for educational and personal project use only. Modifying CNC machinery with custom automatic tool changers, custom macro scripts, and un-isolated input circuits carries inherent risks of hardware destruction, electrical damage, and personal injury. The authors assume no liability for damaged components, broken tooling, or ruined workpieces resulting from the use of these guides or files. Proceed at your own risk.
